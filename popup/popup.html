@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Popup</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>TabGuardian</h1>
+    <button id="archiveButton" class="actionButton" style="margin-bottom: 16px">
+      Archive Tabs
+    </button>
+    <button id="closeButton" class="actionButton" style="margin-bottom: 16px">
+      Close Tabs Excluded From Archive
+    </button>
+    <input type="text" id="textInput" placeholder="Enter regex expression" />
+    <button id="addButton" class="actionButton" style="margin-top: 16px">
+      Add Regex Filter
+    </button>
+    <div id="status"></div>
+
+    <h2>Regex Filters</h2>
+    <ul id="tabsList"></ul>
+
+    <footer>
+      <p>
+        TabGuardian add-on by Kevin Zhu.<br />See the
+        <a href="https://tabguardian.vercel.app/" target="_blank">website</a>
+        for FAQ and support.
+      </p>
+    </footer>
+  </body>
+  <script src="popup.js"></script>
+</html>

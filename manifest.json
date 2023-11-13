@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "TabGuardian",
+  "version": "0.1",
+
+  "description": "Tab manager for Firefox. Detects which tabs are relevant and closes unneeded tabs. Also allows customization of regex filters to control which tabs are closed. See https://tabguardian.vercel.app/",
+  "homepage_url": "https://github.com/BrilliantDeviation7/tabguardian-addon",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "permissions": ["activeTab", "storage", "tabs"],
+
+  "browser_action": {
+    "default_icon": "icons/border-48.png",
+    "default_title": "TabGuardian",
+    "default_popup": "popup/popup.html"
+  }
+}
